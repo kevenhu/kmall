@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--1.配置日志通过console输出-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!--2.配置日志输出到文件-->
+    <appender name="File" class="ch.qos.logback.core.FileAppender">
+        <file>log/kmall.log</file>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!--每条log的头package名称-->
+    <logger name="com.keven" level="TRACE"/>
+
+    <!--可以包含多个资源，与appender对应-->
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="File" />
+    </root>
+
+
+</configuration>
