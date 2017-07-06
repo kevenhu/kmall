@@ -97,12 +97,23 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/default.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/META-INF/MANIFEST.MF" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/default.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/mapper/UserDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/mybatis/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/spring/spring-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/spring/spring-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/classes/spring/spring-web.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/views/error.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/views/index.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/views/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/views/register.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/kmall/WEB-INF/web.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/logback-test.xml" />
     </list>
@@ -1179,7 +1190,7 @@
       <workItem from="1499038863855" duration="19081000" />
       <workItem from="1499237698603" duration="4830000" />
       <workItem from="1499253077347" duration="11643000" />
-      <workItem from="1499269580085" duration="14055000" />
+      <workItem from="1499269580085" duration="14128000" />
     </task>
     <servers />
   </component>
@@ -1216,7 +1227,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49609000" />
+    <option name="totallyTimeSpent" value="49682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
