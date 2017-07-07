@@ -1,9 +1,13 @@
 package com.keven.kmall.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by Keven on 2017/7/5.
  */
-public class User {
+public class User implements Serializable{
+
+    private final static long serialVersionUID = 92633004015631981L;
 
     private int id;
 
